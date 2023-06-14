@@ -3,6 +3,7 @@ import './Home.css';
 import Card from '../Cards/Card';
 import RequestMeal from '../Member/RequestMeal/RequestMeal';
 import ExpenseUpdateRequest from '../Member/ExpenseUpdateRequest/ExpenseUpdateRequest';
+import MealUpdate from '../Manager/MealUpdate/MealUpdate';
 
 const Home = () => {
     return (
@@ -32,9 +33,10 @@ const Home = () => {
                     <h2>00 taka</h2>
                 </div>
             </div>
-            <RequestMeal></RequestMeal>
+            {/* <RequestMeal></RequestMeal>
             <ExpenseUpdateRequest title="Bazar"></ExpenseUpdateRequest>
-            <ExpenseUpdateRequest title="Other"></ExpenseUpdateRequest>
+            <ExpenseUpdateRequest title="Other"></ExpenseUpdateRequest> */}
+            <MealUpdate></MealUpdate>
         </div>
     );
 };
